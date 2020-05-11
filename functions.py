@@ -1,4 +1,7 @@
+import numpy as np
+
 #functions checking that the number in a particular cell (position i,j in the grid 9x9) is not in conflict with other number
+#WARNING: 0 are counted as empty cells and not numbers
 
 #returns "true" if the number currently in position i,j (=sol[i,j]) does not appear somewhere else in the sub-square 3x3
 def check_square(i,j,sol):
