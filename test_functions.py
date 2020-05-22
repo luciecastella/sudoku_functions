@@ -58,4 +58,5 @@ def test_check_column():
         [0,0,0,0,8,0,0,7,9]])
     
     assert check_column(1,8,grid3) == False 
-    assert check_line(0,4,grid3) == True
+    
+    assert check_line(0,4,grid3) == False
